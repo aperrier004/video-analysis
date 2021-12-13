@@ -9,7 +9,7 @@ Support for gripping by computer vision tools for amputees of the upper limbs, c
 Hypothesis: the direction of the gaze expresses the intention and makes it possible to know which object the user wants to grasp 
 
 # Dataset
-Dataset GITW_light
+Dataset [GITW_light](https://drive.google.com/drive/folders/1-COL_pTAUgSaK2Wntn_4ckhsCrLkzhhF?usp=sharing)
 5 objects (Bowl, Can of Coca Cola, Milk Bottle, Rice, Sugar)
 Manual annotation of the objects
 
@@ -19,5 +19,7 @@ Given a model (CNN) trained to recognize objects, we try to adapt this model to 
 
 # Steps
 ## Step 1
-Train the model on GITW_light
+Train the model on GITW_light (https://dept-info.labri.fr/~mansenca/GITW_light/)
+
+
 
