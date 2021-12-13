@@ -20,6 +20,16 @@ Given a model (CNN) trained to recognize objects, we try to adapt this model to 
 # Steps
 ## Step 1
 Train the model on GITW_light (https://dept-info.labri.fr/~mansenca/GITW_light/)
+### TODO : 
+- utiliser une architecture éprouvée (ResNet, VGG, ...)
+- utiliser une architecture éprouvée déjà entraînée  (transfer learning/fine tuning)
+- utiliser une autre normalization des données (standardization/z-score normalization)
+- utiliser de la "data augmentation" (très facile avec Keras ImageDataGenerator)
+- essayer d'autres hyper paramètres (optimizer ? batch size ? ...)
+- améliorer la partie "rapport" :
+   - La présentation de la matrice de confusion pourrait être grandement améliorée (cf https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html )
+   - les plots de loss/accuracy pourrait être juste après l'entrainement (et pas à la toute fin).
+   - discuter vos résultats [le but du projet est de montrer que vous avez essayé plusieurs solutions et de discuter ce que vous avez trouvé].
 
 
 
