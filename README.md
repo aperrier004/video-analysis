@@ -17,19 +17,28 @@ Manual annotation of the objects
 We are looking to study lifelong learning.
 Given a model (CNN) trained to recognize objects, we try to adapt this model to new images arriving on the fly with the “Move-to-Data” method 
 
+# Setting up the project
+1. Clone the repository : `git clone https://github.com/aperrier004/video-analysis.git`
+
+2. Install the dependencies of the project that are required: `pip install -r requirements.txt`
+
+3. Download the zip containing the labeled training and testing data: `https://dept-info.labri.fr/~mansenca/GITW_light/DB.zip` and unzip it into the cloned repo at the root
+
 # Steps
 ## Step 1
 Train the model on GITW_light (https://dept-info.labri.fr/~mansenca/GITW_light/)
-### TODO : 
-- utiliser une architecture éprouvée (ResNet, VGG, ...)
-- utiliser une architecture éprouvée déjà entraînée  (transfer learning/fine tuning)
-- utiliser une autre normalization des données (standardization/z-score normalization)
-- utiliser de la "data augmentation" (très facile avec Keras ImageDataGenerator)
-- essayer d'autres hyper paramètres (optimizer ? batch size ? ...)
-- améliorer la partie "rapport" :
-   - La présentation de la matrice de confusion pourrait être grandement améliorée (cf https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ConfusionMatrixDisplay.html )
-   - les plots de loss/accuracy pourrait être juste après l'entrainement (et pas à la toute fin).
-   - discuter vos résultats [le but du projet est de montrer que vous avez essayé plusieurs solutions et de discuter ce que vous avez trouvé].
+
+
+
+## Step 2
+Tracking from a first detection
+
+### Tracking OpenCV
+
+
+### Incremental learning
+
+### Move-to-Data
 
 
 
